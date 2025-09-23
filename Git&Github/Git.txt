@@ -1,1 +1,4 @@
 how to version control Works 
+
+1st commit done 
+but the graph section is not here in git section 
