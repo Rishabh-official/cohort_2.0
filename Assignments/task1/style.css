@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Rounded;
+    src: url(../../Fonts/FredokaOne-Regular.otf);
+}
+
+#title{
+    text-align: center;
+    /* margin-top: 20px; */
+    background: rgb(19, 30, 65);
+    height: 20%;
+    width: 100%;
+    padding: 100px;
+    color: #fcfbfb;
+    font-family: Rounded;
+}
+#title h2{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+#title p{
+    font-size: 18px;
+    color: #f8efef;
+    margin-top: 10px;
+    font-style: italic;
+}
+#content{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fffdfd;
+}
+#About{
+    margin: 20px 100px 20px 100px ;
+    border-radius: 5px;
+    background: #eee9e9;
+    padding: 70px;
+}
+.b{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Rounded;
+    text-align: center;
+}
+#About p{
+    text-align: center;
+}
+#education{
+    margin: 0px 100px 20px 100px ;
+    border-radius: 5px;
+    background: #ece9589d;
+    padding: 50px;
+}
+
+.a{
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+#Skills{
+    margin: 20px 100px 20px 100px ;
+    border-radius: 5px;
+    background: #2fc1f69d;
+    padding: 50px;
+}
+#Projects{
+    margin: 20px 100px 20px 100px ;
+    border-radius: 5px;
+    background: #ec2ff69d;
+    padding: 50px;
+}
+#Contact{
+    margin: 20px 100px 20px 100px ;
+    border-radius: 5px;
+    background: #f62f9c9d;
+    padding: 50px;
+}
+#footer{
+    text-align: center;
+    /* margin-top: 20px; */
+    background: rgb(19, 30, 65);
+    height: 10%;
+    width: 100%;
+    padding: 30px;
+    color: #fcfbfb;
+    font-family: Rounded;
+}
