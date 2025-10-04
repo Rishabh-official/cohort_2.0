@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: 'OikawaFont';
+    src: url(./haruto.personal-use.ttf);
+}
+#main{
+    background-image: url(./Oikawa\ Tooru\ Wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+   font-family: OikawaFont ;
+    font-size: 150px;
+    color: #1cc3af;
+    text-shadow: 2px 2px 4px #000000;
+    /* animation: glow 1s ease-in-out infinite alternate; */
+    margin-top: 150px;
+    letter-spacing: 5px;
+}
+Button{
+    text-align: center;
+    margin: 20px;
+    margin-left: 350px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #1cc3af;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
