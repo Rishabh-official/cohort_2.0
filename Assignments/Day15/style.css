@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: font;
+    src: url(./sf-pro-text_regular.woff2);
+}
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+   
+}
+.card{
+    height: 380px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.card img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.card h2{
+    font-family: font;
+}
+.card p{
+    text-align: center;
+}
+.card button{
+    border: 2px solid rgb(51, 98, 241);
+
+    padding: 10px 15px;
+    border-radius: 20px;
+    background:rgb(37, 86, 235);
+    color: white ;
+    font-weight: 600;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(51, 98, 241);
+    color: rgb(37, 86, 235);
+    font-weight: 600;
+}
